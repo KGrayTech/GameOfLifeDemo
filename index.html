@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game of Life</title>
+    <script type="module" src="./assets/index-cfdfcff9.js"></script>
+    <link rel="stylesheet" href="./assets/index-309c1e75.css">
+  </head>
+  <body>
+    <header>
+      <h1> Game of Life </h1>
+    </header>
+    <main>
+      <div class="canvas-container">
+        <canvas width="1024" height="768" id="app-canvas"></canvas>
+      </div>
+
+      <nav>
+        <div class="grid-controls">
+          <button id="randomGridBtn"> Random grid </button>
+          <button id="clearGridBtn"> Clear </button>
+        </div>
+
+        <div class="sizes-controls">
+          <label for="width-input">Width:</label>
+          <input type="number" id="widthInput" />
+
+          <label for="height-input">Height:</label>
+          <input type="number" id="heightInput" /> 
+
+          <button id="updateSizeBtn"> Update size </button>
+        </div>
+      </nav>
+
+    </main>
+    
+  </body>
+</html>
